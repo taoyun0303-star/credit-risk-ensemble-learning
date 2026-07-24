@@ -1,0 +1,12 @@
+# Data must be downloaded from its original source and is intentionally not versioned.
+data/original_data/*.csv
+data/preprocessed_data/*.csv
+
+# Generated model reports and Python artifacts.
+reports/generated/*
+!reports/generated/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
